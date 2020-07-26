@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+body {
+  font-family: 'PT Sans', sans-serif; }
+
+header {
+  background-color: #fcdb00; }
+  header nav .navbar-nav .nav-item .nav-link {
+    color: #010101;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px 40px; }
+  header .carousel .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    border-radius: 50% !important;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #feed80;
+    border: 0 !important;
+    padding: 0 !important; }
+  header .carousel .carousel-indicators .active {
+    opacity: 1;
+    background: #ffffff; }
+  header .carousel .carousel-inner {
+    padding: 0 0 60px; }
+    header .carousel .carousel-inner .carousel-item {
+      padding-bottom: 30px; }
+      header .carousel .carousel-inner .carousel-item .slide-content h1 {
+        color: #010101;
+        font-weight: 700;
+        font-size: 32px; }
+      header .carousel .carousel-inner .carousel-item .slide-content span {
+        color: #313841;
+        font-size: 21px;
+        display: block;
+        padding: 10px 210px 10px 0;
+        font-weight: 500; }
+      header .carousel .carousel-inner .carousel-item .slide-content p {
+        color: #555555;
+        font-size: 16px;
+        padding-right: 150px; }
+      header .carousel .carousel-inner .carousel-item .slide-content .icon a {
+        color: #010101; }
+      header .carousel .carousel-inner .carousel-item .slide-content .icon a i {
+        font-size: 40px;
+        padding: 20px 30px 0 0; }
+      header .carousel .carousel-inner .carousel-item .s-img {
+        padding-left: 60px; }
+
+.service .heading h2 {
+  font-size: 32px;
+  font-weight: 800 !important;
+  color: #010101; }
+.service .heading p {
+  color: #898989;
+  font-size: 21px;
+  font-weight: 500; }
+.service .part {
+  margin-top: 55px; }
+  .service .part .part-content h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #010101; }
+  .service .part .part-content p {
+    color: #898989; }
+
+.contract {
+  background-color: #010101; }
+  .contract .content-contract h3 {
+    font-weight: 700;
+    color: #fcdb00; }
+  .contract .content-contract p {
+    color: #898989;
+    font-size: 19px; }
+  .contract .content-contract form input {
+    margin-right: 20px; }
+  .contract .content-contract form button {
+    background-color: #fcdb00;
+    padding: 10px 30px;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .contract .content-contract .social-icon {
+    display: inline-flex; }
+    .contract .content-contract .social-icon a {
+      display: block;
+      color: #010101;
+      background-color: #fcdb00;
+      margin: 40px 20px 30px 0;
+      font-size: 20px;
+      border-radius: 5px; }
+      .contract .content-contract .social-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 40px; }
+      .contract .content-contract .social-icon a:hover {
+        background-color: #fff; }
+
+footer {
+  background-color: #010101; }
+  footer .f-col ul {
+    list-style: none; }
+    footer .f-col ul li p {
+      color: #898989;
+      margin-bottom: 0;
+      font-size: 16px; }
+    footer .f-col ul li a {
+      color: #898989;
+      font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
